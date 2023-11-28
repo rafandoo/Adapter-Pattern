@@ -1,5 +1,7 @@
 package com.pay;
 
+import com.pay.existente.SistemaPagamento;
+
 public class Cliente {
 
     private SistemaPagamento pagamento;
