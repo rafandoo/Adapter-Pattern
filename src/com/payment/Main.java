@@ -1,10 +1,10 @@
-package com.pay;
+package com.payment;
 
-import com.pay.existente.Pagamento;
-import com.pay.existente.SistemaPagamento;
-import com.pay.terceiro.AdaptadorPagamento;
-import com.pay.terceiro.PagamentoTerceiros;
-import com.pay.terceiro.SistemaPagamentoTerceiros;
+import com.payment.existente.Pagamento;
+import com.payment.existente.SistemaPagamento;
+import com.payment.terceiro.AdaptadorPagamento;
+import com.payment.terceiro.PagamentoTerceiros;
+import com.payment.terceiro.SistemaPagamentoTerceiros;
 
 public class Main {
 
@@ -16,7 +16,7 @@ public class Main {
         // Sistema de pagamento de terceiros adaptado para a interface existente
         SistemaPagamentoTerceiros pagamentoTerceiros = new PagamentoTerceiros(500);
         SistemaPagamento adaptador = new AdaptadorPagamento(pagamentoTerceiros);
-
+        // Realizando o pagamento
         Cliente c1 = new Cliente(pagamentoExistente);
         c1.realizarPagamento();
 

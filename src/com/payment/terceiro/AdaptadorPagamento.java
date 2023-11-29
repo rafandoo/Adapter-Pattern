@@ -1,6 +1,6 @@
-package com.pay.terceiro;
+package com.payment.terceiro;
 
-import com.pay.existente.SistemaPagamento;
+import com.payment.existente.SistemaPagamento;
 
 public class AdaptadorPagamento implements SistemaPagamento {
 

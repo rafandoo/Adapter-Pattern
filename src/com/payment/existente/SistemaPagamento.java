@@ -1,4 +1,4 @@
-package com.pay.existente;
+package com.payment.existente;
 
 public interface SistemaPagamento {
 

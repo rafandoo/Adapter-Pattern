@@ -1,4 +1,4 @@
-package com.pay.terceiro;
+package com.payment.terceiro;
 
 import java.text.DecimalFormat;
 

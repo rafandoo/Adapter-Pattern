@@ -1,4 +1,5 @@
-package com.pay.existente;
+package com.payment.existente;
+
 import java.text.DecimalFormat;
 
 public class Pagamento implements SistemaPagamento {
